@@ -1,0 +1,43 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #222; /* fondo oscuro */
+  color: #eee; /* texto claro */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #f8f9fa !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #a5d8ff !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #66b2ff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #3399ff !important;
+}
+
+.cart-widget {
+  font-size: 1.3rem;
+  color: #f8f9fa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart-widget span {
+  margin-left: 6px;
+}
